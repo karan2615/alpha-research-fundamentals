@@ -12,6 +12,8 @@ RUN wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-aarch64.sh 
 
 ENV PATH="/opt/conda/bin:$PATH"
 
+RUN pip install pandas numpy jupyter contexttimer pyarrow ray
+
 RUN conda --version
 
 CMD ["/bin/bash"]
