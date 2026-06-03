@@ -1,0 +1,5 @@
+seminar_02/homework/data/
+seminar_02/data/sp500/
+**/.ipynb_checkpoints/
+__pycache__/
+*.pyc
